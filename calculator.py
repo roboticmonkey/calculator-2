@@ -8,10 +8,10 @@ calculator program yourself in this file.
 from arithmetic import *
 
 #will hold requested users calculation to perform
-calculation = None
-
+# calculation = None
+calculation = raw_input("> ")
 while calculation != "q":
-	calculation = raw_input("> ")
+	# calculation = raw_input("> ")
 	#print calculation
 
 	#......
@@ -45,3 +45,5 @@ while calculation != "q":
 
 	else:
 		print "what?"
+
+	calculation = raw_input("> ")
