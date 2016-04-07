@@ -15,7 +15,7 @@ while calculation != "q":
 	#print calculation
 
 	#......
-	token = calculation.split(" ")
+	token = calculation.split()
 	#print token
 
 	#determine what mathematical equation to perform based on users first inputted value
